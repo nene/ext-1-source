@@ -20,7 +20,7 @@ Ext.tree.DefaultSelectionModel = function(){
         * Fires before the selected node changes, return false to cancel the change
         * @param {DefaultSelectionModel} this
         * @param {TreeNode} node the new selection
-        * @param {TreeNode} node the old selection
+        * @param {TreeNode} oldNode the old selection
         */
        "beforeselect" : true
    });

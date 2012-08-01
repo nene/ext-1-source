@@ -243,13 +243,7 @@ Ext.extend(Ext.grid.Grid, Ext.util.Observable, {
      * @cfg {Boolean} enableColLock False to turn off the column locking context menu items (defaults to true).
      */
     /**
-     * @cfg {Boolean} enableColumnMove False to turn off column reordering via drag drop (defaults to true).
-     */
-    /**
      * @cfg {Boolean} enableColumnResize False to turn off column resizing for the whole grid (defaults to true).
-     */
-    /**
-     * @cfg {Boolean} enableRowHeightSync True to turn on sync of locked and non locked row heights (defaults to false).
      */
     /**
      * @cfg {Ext.data.Store} dataSource The {@link Ext.data.Store} backing the grid (required).

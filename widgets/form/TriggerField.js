@@ -13,8 +13,6 @@ trigger.applyTo('my-field');
  *
  * However, in general you will most likely want to use TriggerField as the base class for a reusable component.
  * {@link Ext.form.DateField} and {@link Ext.form.ComboBox} are perfect examples of this.
- * @cfg {String} triggerClass An additional CSS class used to style the trigger button.  The trigger will always get the
- * class 'x-form-trigger' by default and triggerClass will be <b>appended</b> if specified.
  * @constructor
  * Create a new TriggerField.
  * @param {Object} config Configuration options (valid {@Ext.form.TextField} config options will also be applied
@@ -27,7 +25,8 @@ Ext.form.TriggerField = function(config){
 
 Ext.extend(Ext.form.TriggerField, Ext.form.TextField,  {
     /**
-     * @cfg {String} triggerClass A CSS class to apply to the trigger
+     * @cfg {String} triggerClass An additional CSS class used to style the trigger button.  The trigger will always get the
+     * class 'x-form-trigger' by default and triggerClass will be <b>appended</b> if specified.
      */
     /**
      * @cfg {String/Object} autoCreate A DomHelper element spec, or true for a default element spec (defaults to
