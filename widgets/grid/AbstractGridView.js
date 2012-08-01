@@ -1,3 +1,6 @@
+/**
+ *
+ */
 Ext.grid.AbstractGridView = function(){
 	this.grid = null;
 	
