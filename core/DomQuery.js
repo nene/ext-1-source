@@ -497,7 +497,7 @@ Ext.DomQuery = function(){
          * Selects the value of a node, optionally replacing null with the defaultValue.
          * @param {String} selector The selector/xpath query
          * @param {Node} root (optional) The start of the query (defaults to document).
-         * @param {String} defaultValue
+         * @param {String} defaultValue (optional)
          */
         selectValue : function(path, root, defaultValue){
             path = path.replace(trimRe, "");
@@ -514,7 +514,7 @@ Ext.DomQuery = function(){
          * Selects the value of a node, parsing integers and floats.
          * @param {String} selector The selector/xpath query
          * @param {Node} root (optional) The start of the query (defaults to document).
-         * @param {Number} defaultValue
+         * @param {Number} defaultValue (optional)
          * @return {Number}
          */
         selectNumber : function(path, root, defaultValue){

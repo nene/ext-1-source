@@ -220,7 +220,7 @@ Ext.extend(Ext.tree.MultiSelectionModel, Ext.util.Observable, {
      * Select a node.
      * @param {TreeNode} node The node to select
      * @param {EventObject} e (optional) An event associated with the selection
-     * @param {Boolean} keepExisting True to retain existing selections
+     * @param {Boolean} keepExisting (optional) True to retain existing selections
      * @return {TreeNode} The selected node
      */
     select : function(node, e, keepExisting){

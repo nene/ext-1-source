@@ -5,7 +5,7 @@
  * Creates a new Toolbar
  * @param {String/HTMLElement/Element} container The id or element that will contain the toolbar
  * @param {Array} buttons (optional) array of button configs or elements to add
- * @param {Object} config The config object
+ * @param {Object} config (optional) The config object
  */ 
 Ext.Toolbar = function(container, buttons, config){
     if(container instanceof Array){ // omit the container for later rendering

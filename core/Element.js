@@ -1758,7 +1758,7 @@ el.alignTo("other-el", "c-bl", [-6, 0]);
      * @param {Boolean/Object} animate (optional) True for the default animation or a standard Element animation config object
      * @param {Boolean/Number} monitorScroll (optional) True to monitor body scroll and reposition. If this parameter
      * is a number, it is used as the buffer delay (defaults to 50ms).
-     * @param {Function} callback The function to call after the animation finishes
+     * @param {Function} callback (optional) The function to call after the animation finishes
      * @return {Ext.Element} this
      */
     anchorTo : function(el, alignment, offsets, animate, monitorScroll, callback){
@@ -1865,7 +1865,7 @@ el.alignTo("other-el", "c-bl", [-6, 0]);
     * Update the innerHTML of this element, optionally searching for and processing scripts
     * @param {String} html The new HTML
     * @param {Boolean} loadScripts (optional) true to look for and process scripts
-    * @param {Function} callback For async script loading you can be notified when the update completes
+    * @param {Function} callback (optional) For async script loading you can be notified when the update completes
     * @return {Ext.Element} this
      */
     update : function(html, loadScripts, callback){

@@ -57,7 +57,7 @@ Ext.extend(Ext.MasterTemplate, Ext.Template, {
     /**
      * Applies the passed values to a child template.
      * @param {String/Number} name (optional) The name or index of the child template
-     * @param {Array/Object} values The values to be applied to the template
+     * @param {Array/Object} values (optional) The values to be applied to the template
      * @return {MasterTemplate} this
      */
      add : function(name, values){
@@ -73,7 +73,7 @@ Ext.extend(Ext.MasterTemplate, Ext.Template, {
     /**
      * Applies all the passed values to a child template.
      * @param {String/Number} name (optional) The name or index of the child template
-     * @param {Array} values The values to be applied to the template, this should be an array of objects.
+     * @param {Array} values (optional) The values to be applied to the template, this should be an array of objects.
      * @param {Boolean} reset (optional) True to reset the template first
      * @return {MasterTemplate} this
      */

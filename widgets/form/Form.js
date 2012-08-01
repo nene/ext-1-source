@@ -165,9 +165,7 @@ Ext.extend(Ext.form.Form, Ext.form.BasicForm, {
      * Add Ext.form components to the current open container (e.g. column, fieldset, etc.).  Fields added via this method
      * can also be passed with an additional property of fieldLabel, which if supplied, will provide the text to display
      * as the label of the field.
-     * @param {Field} field1
-     * @param {Field} field2 (optional)
-     * @param {Field} etc. (optional)
+     * @param {Fields...} fields
      * @return {Form} this
      */
     add : function(){
