@@ -174,7 +174,7 @@ Ext.Toolbar.prototype = {
     /**
      * Inserts any {@link Ext.Toolbar.Item}/{@link Ext.Toolbar.Button} at the specified index.
      * @param {Number} index The index where the item is to be inserted
-     * @param {Object/Ext.Toolbar.Item/Ext.Toolbar.Button (may be Array)} item The button, or button config object to be inserted.
+     * @param {Object/Ext.Toolbar.Item/Ext.Toolbar.Button} item The button, or button config object to be inserted. (may be Array)
      * @return {Ext.Toolbar.Button/Item}
      */
     insertButton : function(index, item){
