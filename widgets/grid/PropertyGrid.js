@@ -203,7 +203,7 @@ Ext.extend(Ext.grid.PropertyColumnModel, Ext.grid.ColumnModel, {
 
 /**
  * @class Ext.grid.PropertyGrid
- * @extends Ext.grid.EditorGridPanel
+ * @extends Ext.grid.EditorGrid
  * A specialized grid implementation intended to mimic the traditional property grid as typically seen in
  * development IDEs.  Each row in the grid represents a property of some object, and the data is stored
  * as a set of name/value pairs in {@link Ext.grid.PropertyRecord}s.  Example usage:
