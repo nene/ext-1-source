@@ -1,0 +1,15 @@
+{
+    "--": ["core", "data", "dd", "state", "util", "widgets"],
+    "--title": "Ext JS 1.1 - Sencha Docs",
+
+    "--local-storage-db": "ext-1",
+    "--warnings": ["-link", "-link_ambiguous", "-no_doc", "-type_name", "-hide"],
+    "--external": ["XMLHttpRequest"],
+
+    "--footer": "Ext JS 1.1.0 Docs - Generated with <a href='https://github.com/senchalabs/jsduck'>JSDuck</a> {VERSION}. <a href='http://www.sencha.com/legal/terms-of-use/'>Terms of Use</a>",
+
+    "--head-html": [
+        "<link rel='canonical' href='http://docs.sencha.com/ext-js/2-3/' />",
+        "<meta name='description' content='Ext JS 1.1.0 API Documentation from Sencha' />"
+    ]
+}
