@@ -48,7 +48,7 @@ Ext.tree.TreeLoader = function(config){
          * Fires before a network request is made to retrieve the Json text which specifies a node's children.
          * @param {Object} This TreeLoader object.
          * @param {Object} node The {@link Ext.tree.TreeNode} object being loaded.
-         * @param {Object} callback The callback function specified in the {@link #load} call.
+         * @param {Object} callback The callback function specified in the {@link #method-load} call.
          */
         "beforeload" : true,
         /**

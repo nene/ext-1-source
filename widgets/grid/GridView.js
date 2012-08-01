@@ -30,7 +30,7 @@ Ext.extend(Ext.grid.GridView, Ext.grid.AbstractGridView, {
      * @param {Number} index The row index
      * @param {Object} rowParams A config object that is passed to the row template during rendering that allows
      * customization of various aspects of a body row, if applicable.  Note that this object will only be applied if
-     * {@link #enableRowBody} = true, otherwise it will be ignored. The object may contain any of these properties:<ul>
+     * enableRowBody = true, otherwise it will be ignored. The object may contain any of these properties:<ul>
      * <li><code>body</code> : String <div class="sub-desc">An HTML fragment to be rendered as the cell's body content (defaults to '').</div></li>
      * <li><code>bodyStyle</code> : String <div class="sub-desc">A CSS style string that will be applied to the row's TR style attribute (defaults to '').</div></li>
      * <li><code>cols</code> : Number <div class="sub-desc">The column count to apply to the body row's TD colspan attribute (defaults to the current

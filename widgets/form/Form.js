@@ -25,7 +25,7 @@ Ext.form.Form = function(config){
     }
     this.active = this.root;
     /**
-     * Array of all the buttons that have been added to this form via {@link addButton}
+     * Array of all the buttons that have been added to this form via {@link #addButton}
      * @type Array
      */
     this.buttons = [];

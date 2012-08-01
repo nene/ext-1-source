@@ -6,10 +6,10 @@
  * <p>
  * DataProxy implementations are usually used in conjunction with an implementation of Ext.data.DataReader
  * (of the appropriate type which knows how to parse the data object) to provide a block of
- * {@link Ext.data.Records} to an {@link Ext.data.Store}.<br>
+ * {@link Ext.data.Record}s to an {@link Ext.data.Store}.<br>
  * <p>
  * Custom implementations must implement the load method as described in
- * {@link Ext.data.HttpProxy#load}.
+ * {@link Ext.data.HttpProxy#method-load}.
  */
 Ext.data.DataProxy = function(){
     this.addEvents({

@@ -20,7 +20,7 @@ Ext.extend(Ext.form.Field, Ext.BoxComponent,  {
      */
     /**
      * @cfg {String} labelSeparator The standard separator to display after the text of each form label (defaults
-     * to the value of {@link Ext.layout.FormLayout#labelSeparator}, which is a colon ':' by default).  To display
+     * to the value of {@link Ext.form.Layout#labelSeparator}, which is a colon ':' by default).  To display
      * no separator for this field's label specify empty string ''.
      */
     /**

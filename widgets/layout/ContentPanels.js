@@ -172,7 +172,7 @@ panel.load({
     /**
      * Set a URL to be used to load the content for this panel. When this panel is activated, the content will be loaded from that URL.
      * @param {String/Function} url The URL to load the content from or a function to call to get the URL
-     * @param {String/Object} params (optional) The string params for the update call or an object of the params. See {@link Ext.UpdateManager#update} for more details. (Defaults to null)
+     * @param {String/Object} params (optional) The string params for the update call or an object of the params. See {@link Ext.UpdateManager#method-update} for more details. (Defaults to null)
      * @param {Boolean} loadOnce (optional) Whether to only load the content once. If this is false it makes the Ajax call every time this panel is activated. (Defaults to false)
      * @return {Ext.UpdateManager} The UpdateManager
      */

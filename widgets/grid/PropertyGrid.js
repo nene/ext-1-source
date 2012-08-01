@@ -27,7 +27,7 @@ Ext.grid.PropertyRecord = Ext.data.Record.create([
  * A custom wrapper for the {@link Ext.grid.PropertyGrid}'s {@link Ext.data.Store}. This class handles the mapping
  * between the custom data source objects supported by the grid and the {@link Ext.grid.PropertyRecord} format
  * required for compatibility with the underlying store. Generally this class should not need to be used directly --
- * the grid's data should be accessed from the underlying store via the {@link #store} property.
+ * the grid's data should be accessed from the underlying store via the store property.
  * @constructor
  * @param {Ext.grid.Grid} grid The grid this store will be bound to
  * @param {Object} source The source data config object
@@ -312,7 +312,7 @@ var grid = new Ext.grid.PropertyGrid({
     /**
      * Sets the source data object containing the property data.  The data object can contain one or more name/value
      * pairs representing all of the properties of an object to display in the grid, and this data will automatically
-     * be loaded into the grid's {@link #store}.  If the grid already contains data, this method will replace any
+     * be loaded into the grid's store.  If the grid already contains data, this method will replace any
      * existing data.  See also the {@link #source} config value.  Example usage:
      * <pre><code>
 grid.setSource({

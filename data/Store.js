@@ -105,7 +105,7 @@ Ext.data.Store = function(config){
          * Fires before a request is made for a new data object.  If the beforeload handler returns false
          * the load action will be canceled.
          * @param {Store} this
-         * @param {Object} options The loading options that were specified (see {@link #load} for details)
+         * @param {Object} options The loading options that were specified (see {@link #method-load} for details)
          */
         beforeload : true,
         /**
@@ -113,7 +113,7 @@ Ext.data.Store = function(config){
          * Fires after a new set of Records has been loaded.
          * @param {Store} this
          * @param {Ext.data.Record[]} records The Records that were loaded
-         * @param {Object} options The loading options that were specified (see {@link #load} for details)
+         * @param {Object} options The loading options that were specified (see {@link #method-load} for details)
          */
         load : true,
         /**
@@ -316,7 +316,7 @@ Ext.extend(Ext.data.Store, Ext.util.Observable, {
      * Reloads the Record cache from the configured Proxy using the configured Reader and
      * the options from the last load operation performed.
      * @param {Object} options (optional) An object containing properties which may override the options
-     * used in the last load operation. See {@link #load} for details (defaults to null, in which case
+     * used in the last load operation. See {@link #method-load} for details (defaults to null, in which case
      * the most recently used options are reused).
      */
     reload : function(options){
