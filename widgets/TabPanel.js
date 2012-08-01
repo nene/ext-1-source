@@ -437,7 +437,7 @@ Ext.TabPanelItem = function(tabPanel, id, text, closable){
     this.pnode = Ext.get(els.el.parentNode, true);
     this.el.on("mousedown", this.onTabMouseDown, this);
     this.el.on("click", this.onTabClick, this);
-    /** @private */
+    /** @private @ignore */
     if(closable){
         var c = Ext.get(els.close, true);
         c.dom.title = this.closeText;

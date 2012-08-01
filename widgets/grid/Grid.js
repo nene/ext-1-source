@@ -59,7 +59,7 @@ Ext.grid.Grid = function(container, config){
     if(this.height){
         this.container.setHeight(this.height);
     }
-    /** @private */
+    /** @private @ignore */
 	this.addEvents({
 	    // raw events
 	    /**

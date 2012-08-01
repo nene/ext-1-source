@@ -47,7 +47,7 @@ Ext.View = function(container, tpl, config){
 
     Ext.apply(this, config);
 
-    /** @private */
+    /** @private @ignore */
     this.addEvents({
     /**
      * @event beforeclick

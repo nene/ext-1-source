@@ -415,9 +415,7 @@ Company.data.CustomStore = function(config) { ... }
          * intended for arguments of type {@link Ext.Element} and {@link Ext.Component}, but any subclass of
          * {@link Ext.util.Observable} can be passed in.  Any number of elements and/or components can be
          * passed into this function in a single call as separate arguments.
-         * @param {Mixed} arg1 An {@link Ext.Element} or {@link Ext.Component} to destroy
-         * @param {Mixed} (optional) arg2
-         * @param {Mixed} (optional) etc...
+         * @param {Mixed...} args An {@link Ext.Element} or {@link Ext.Component} to destroy
          */
         destroy : function(){
             for(var i = 0, a = arguments, len = a.length; i < len; i++) {
