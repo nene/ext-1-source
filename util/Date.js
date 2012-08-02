@@ -669,7 +669,7 @@ Date.monthNames =
  */
 Date.getShortMonthName = function(month) {
     return Date.monthNames[month].substring(0, 3);
-}
+};
 
 /**
  * An array of textual day names.
@@ -732,7 +732,7 @@ Date.monthNumbers = {
 Date.getMonthNumber = function(name) {
     // handle camel casing for english month names (since the keys for the Date.monthNumbers hash are case sensitive)
     return Date.monthNumbers[name.substring(0, 1).toUpperCase() + name.substring(1, 3).toLowerCase()];
-}
+};
 
 /**
  * Creates and returns a new Date instance with the exact same date value as the called instance.
